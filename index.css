@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+body .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body .container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body .container .form-group {
+  margin-bottom: 20px;
+}
+body .container .form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+body .container .form-group input[type=text],
+body .container .form-group input[type=password],
+body .container .form-group input[type=email] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+body .container .action {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .container .action:hover {
+  background-color: #45a049;
+  text-decoration: underline;
+}
+body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+body table th,
+body table td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+body table th {
+  background-color: #f2f2f2;
+}
+body table tr:hover {
+  background-color: #f5f5f5;
+}
+body table .edit {
+  padding-left: 20px;
+}
+body .search-container {
+  margin: 0 auto 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .search-container .search-form {
+  display: flex;
+  align-items: center;
+}
+body .search-container .search-form label {
+  margin-right: 10px;
+}
+body .search-container .search-form select,
+body .search-container .search-form input[type=text] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+body .search-container .search-form input[type=submit] {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .cancel-button {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+  padding: 8px 12px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+body .cancel-button:hover {
+  background-color: #c0392b;
+}/*# sourceMappingURL=index.css.map */
